@@ -114,7 +114,7 @@ def pdfminerr(argv):
 def main():
     #print argv
     a = subprocess.check_output("ls",shell=True)
-    aa = ["pdfminer", "pdf2txt.py", "pdfminer~", "pdf2txt.py~","","output.txt"]
+    aa = ["pdfminer", "pdf2txt.py", "pdfminer~", "pdf2txt.py~","","output.txt","README.md"]
     argvv = ['']
     #print argvv
     for d in a.split('\n'):
