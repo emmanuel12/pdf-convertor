@@ -2,8 +2,6 @@
 
 import sys
 import subprocess
-import os
-import requests
 from pdfminer.pdfparser import PDFDocument, PDFParser
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter, process_pdf
 from pdfminer.pdfdevice import PDFDevice, TagExtractor
